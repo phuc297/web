@@ -1,0 +1,233 @@
+
+.team-banner{
+    margin-top: 100px;
+    height: 800px;
+}
+
+.team-banner .img-background{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    opacity: 0.6;
+}
+
+.team-banner .img-background img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.team-banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    clip-path: polygon(10% 0, 95% 0, 90% 100%, 5% 100%);
+}
+
+.team-banner #team-description{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    width: 800px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    display: inline;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.banner p{
+    width: 630px;
+    text-align: center;
+}
+
+.founder{
+    height: 600px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.heading{
+    width: 500px;
+    font-weight: 500;
+    position: relative;;
+    bottom: 50px;
+}
+
+.img-founder{
+    height: 400px;
+}
+
+img{
+    width: 100%;
+}
+
+.achievement{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+
+.achievement-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.achieve-item{
+    margin: 50px;
+}
+
+.achieve-item h1{
+    font-family: Akshar-Bold;
+    text-shadow: 0 0 3px #ff0000, 0 0 1px #ff0000;
+    color: black;
+    font-size: 90px;
+}
+
+.community{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.community h1{
+    font-size: 150px;
+}
+
+.col2{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2 p{
+    margin: 40px;
+    font-weight: 600;
+}
+
+.community-social .social-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -62px;
+}
+
+.community-social .social-icons svg{
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+.community-social .social-icons a{
+    margin: 15px;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.community-social .social-icons a:hover{
+    background-color: red;
+}
+
+.social-follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.community-social .social-icons p{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our-partners{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.our-partners h1{
+    font-family: 'Lobster', cursive;
+}
+
+.our-partners p{
+    font-weight: bold;
+}
+
+.container-logo-img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    object-fit: contain;
+    background-size: contain; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-logo-img img{
+    width: 150px;
+    margin: auto;
+    transition: all 1s 0s ease;
+}
+
+.container-logo-img img:hover{
+    transform:  scale(1.1);
+}
+
+.partners-logo-list{
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+}
